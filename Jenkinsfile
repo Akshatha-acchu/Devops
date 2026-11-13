@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
 
@@ -21,7 +22,7 @@ pipeline {
                 echo 'Verifying pipeline execution...'
                 bat 'echo "Python script executed successfully!"'
             }
-        
+        }
     }
 
     post {
