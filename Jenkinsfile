@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -13,7 +12,7 @@ pipeline {
         stage('Build & Execute Script') {
             steps {
                 echo 'Running test.py...'
-                bat '"C:\\Users\\STUDENT\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" test.py'
+                bat 'python test.py'
             }
         }
 
