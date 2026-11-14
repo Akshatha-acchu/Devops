@@ -1,2 +1,2 @@
 print("webhook")
-print("gos")
+print("gos!")
